@@ -1,1 +1,2 @@
 # NEU_2018_Summmer_OOP_Design_MedicalReimburseSystem
+本项目为基于JavaFX的医疗报销系统，因时间紧促，主要开发精力在GUI上，未能进一步调试bug，极不稳定。仅作参考。
