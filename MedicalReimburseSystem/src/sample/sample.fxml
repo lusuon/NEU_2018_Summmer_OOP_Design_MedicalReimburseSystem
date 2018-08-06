@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.FlowPane?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<TabPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="563.0" prefWidth="1023.0" tabClosingPolicy="UNAVAILABLE" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.SampleController">
+  <tabs>
+      <Tab text="欢迎">
+        <content>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+               <children>
+                  <BorderPane layoutX="271.0" layoutY="132.0" prefHeight="495.0" prefWidth="778.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                     <center>
+                        <Label prefHeight="88.0" prefWidth="386.0" text="欢迎使用医保报销系统" BorderPane.alignment="CENTER">
+                           <font>
+                              <Font size="36.0" />
+                           </font>
+                        </Label>
+                     </center>
+                  </BorderPane>
+               </children>
+            </AnchorPane>
+        </content>
+      </Tab>
+    <Tab text="业务系统">
+      <content>
+        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+               <children>
+                  <TabPane layoutX="123.0" layoutY="37.0" prefHeight="371.0" prefWidth="600.0" tabClosingPolicy="UNAVAILABLE" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                    <tabs>
+                      <Tab text="人员基本信息维护">
+                           <content>
+                              <BorderPane prefHeight="200.0" prefWidth="200.0">
+                                 <top>
+                                    <HBox prefHeight="0.0" prefWidth="600.0" BorderPane.alignment="CENTER">
+                                       <children>
+                                          <TextField fx:id="personFilterField" prefHeight="23.0" prefWidth="163.0" />
+                                          <Button mnemonicParsing="false" onAction="#handleAddPerson" prefHeight="23.0" prefWidth="41.0" text="增加" />
+                                          <Button mnemonicParsing="false" onAction="#handleChangePerson" text="修改" />
+                                          <Button mnemonicParsing="false" onAction="#handleSavePerson" text="写入" />
+                                          <Button mnemonicParsing="false" onAction="#handleDeletePerson" text="删除" />
+                                       </children>
+                                    </HBox>
+                                 </top>
+                                 <left>
+                                    <TableView fx:id="personTable" prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+                                      <columns>
+                                        <TableColumn fx:id="nameColumn" prefWidth="95.33331298828125" text="人员姓名" />
+                                        <TableColumn fx:id="idColumn" prefWidth="106.66668701171875" text="人员ID" />
+                                      </columns>
+                                    </TableView>
+                                 </left>
+                                 <center>
+                                    <GridPane BorderPane.alignment="CENTER">
+                                      <columnConstraints>
+                                        <ColumnConstraints hgrow="SOMETIMES" maxWidth="142.3333740234375" minWidth="10.0" prefWidth="81.66668701171875" />
+                                        <ColumnConstraints hgrow="SOMETIMES" maxWidth="212.33331298828125" minWidth="10.0" prefWidth="212.33331298828125" />
+                                          <ColumnConstraints hgrow="SOMETIMES" maxWidth="212.33331298828125" minWidth="10.0" prefWidth="212.33331298828125" />
+                                      </columnConstraints>
+                                      <rowConstraints>
+                                          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                      </rowConstraints>
+                                       <children>
+                                          <Label text="人员ID" />
+                                          <Label text="证件类型" GridPane.rowIndex="1" />
+                                          <Label text="证件编号" GridPane.rowIndex="2" />
+                                          <Label text="姓名" GridPane.rowIndex="3" />
+                                          <Label text="性别" GridPane.rowIndex="4" />
+                                          <Label text="民族" GridPane.rowIndex="5" />
+                                          <Label text="出生日期" GridPane.rowIndex="6" />
+                                          <Label text="医疗人员类别" GridPane.rowIndex="7" />
+                                          <Label GridPane.columnIndex="1" />
+                                          <TextField fx:id="personIDField" prefHeight="23.0" prefWidth="122.0" GridPane.columnIndex="1" />
+                                          <TextField fx:id="documentCodeTextField" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+                                          <TextField fx:id="nameTextField" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+                                          <TextField fx:id="nationalityTextField" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+                                          <TextField fx:id="birthDateTextField" GridPane.columnIndex="1" GridPane.rowIndex="6" />
+                                          <TextField fx:id="medicalStaffTypeTextField" GridPane.columnIndex="1" GridPane.rowIndex="7" />
+                                          <Label text="               格式：CN+数字" GridPane.columnIndex="2" />
+                                          <Label text="               格式：YYYY-MM-DD" GridPane.columnIndex="2" GridPane.rowIndex="6" />
+                                          <TextField fx:id="documentTypeTextField" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                                          <TextField fx:id="genderTextField" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+                                          <Label text="               目前支持：身份证、医保卡" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+                                       </children>
+                                    </GridPane>
+                                 </center>
+                                 <right>
+                                    <FlowPane prefHeight="443.0" prefWidth="53.0" BorderPane.alignment="CENTER" />
+                                 </right>
+                              </BorderPane>
+                           </content>
+                        </Tab>
+                        <Tab text="药品基本信息维护">
+                           <content>
+                              <BorderPane prefHeight="200.0" prefWidth="200.0">
+                                 <top>
+                                    <HBox prefHeight="0.0" prefWidth="600.0" BorderPane.alignment="CENTER">
+                                       <children>
+                                          <TextField fx:id="drugFilterField" />
+                                          <Button mnemonicParsing="false" onAction="#handleAddDrug" text="增加" />
+                                          <Button mnemonicParsing="false" onAction="#handleChangeDrug" text="修改" />
+                                          <Button mnemonicParsing="false" onAction="#handleSaveDrug" text="写入" />
+                                          <Button mnemonicParsing="false" onAction="#handleDeleteDrug" text="删除" />
+                                       </children>
+                                    </HBox>
+                                 </top>
+                                 <left>
+                                    <TableView fx:id="drugTable" prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+                                       <columns>
+                                          <TableColumn fx:id="drugNameColumn" prefWidth="95.33331298828125" text="药品名称" />
+                                          <TableColumn fx:id="drugIDColumn" prefWidth="106.66668701171875" text="药品编码" />
+                                       </columns>
+                                    </TableView>
+                                 </left>
+                                 <center>
+                                    <GridPane BorderPane.alignment="CENTER">
+                                       <columnConstraints>
+                                          <ColumnConstraints hgrow="SOMETIMES" maxWidth="184.33331298828125" minWidth="10.0" prefWidth="90.66668701171875" />
+                                          <ColumnConstraints hgrow="SOMETIMES" maxWidth="287.0" minWidth="10.0" prefWidth="195.33331298828125" />
+                                          <ColumnConstraints hgrow="SOMETIMES" maxWidth="287.0" minWidth="10.0" prefWidth="195.33331298828125" />
+                                       </columnConstraints>
+                                       <rowConstraints>
+                                          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                       </rowConstraints>
+                                       <children>
+                                          <Label text="药品编码" />
+                                          <Label text="药品名称" GridPane.rowIndex="1" />
+                                          <Label text="最高限价" GridPane.rowIndex="2" />
+                                          <Label text="药品剂量单位" GridPane.rowIndex="3" />
+                                          <Label text="收费项目等级" GridPane.rowIndex="4" />
+                                          <Label text="医院等级" GridPane.rowIndex="5" />
+                                          <Label text="Label" GridPane.columnIndex="1" />
+                                          <Label text="Label" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                                          <Label text="Label" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+                                          <Label text="Label" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+                                          <Label text="Label" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+                                          <Label text="Label" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+                                          <TextField fx:id="drugIDField" GridPane.columnIndex="1" />
+                                          <TextField fx:id="drugNameField" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                                          <TextField fx:id="maxPriceTextField" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+                                          <TextField fx:id="unitTextField" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+                                          <TextField fx:id="payLevelTextField" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+                                          <TextField fx:id="hospitalLevelTextField" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+                                          <Label text="               格式：一级、二级、三级" GridPane.columnIndex="2" GridPane.rowIndex="5" />
+                                          <Label text="               格式：甲类、乙类、丙类" GridPane.columnIndex="2" GridPane.rowIndex="4" />
+                                       </children>
+                                    </GridPane>
+                                 </center>
+                                 <right>
+                                    <FlowPane prefHeight="443.0" prefWidth="91.0" BorderPane.alignment="CENTER" />
+                                 </right>
+                              </BorderPane>
+                           </content>
+                        </Tab>
+                        <Tab text="人员就诊信息维护">
+                           <content>
+                              <BorderPane prefHeight="200.0" prefWidth="200.0">
+                                 <top>
+                                    <HBox prefHeight="0.0" prefWidth="600.0" BorderPane.alignment="CENTER">
+                                       <children>
+                                          <TextField fx:id="VisitFilterField" />
+                                          <Button mnemonicParsing="false" onAction="#handleAddVisit" text="增加" />
+                                          <Button mnemonicParsing="false" onAction="#handleChangeVisit" text="修改" />
+                                          <Button mnemonicParsing="false" onAction="#handleSaveVisit" text="写入" />
+                                          <Button mnemonicParsing="false" onAction="#handleDeleteVisit" text="删除" />
+                                       </children>
+                                    </HBox>
+                                 </top>
+                                 <left>
+                                    <TableView fx:id="visitTable" prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+                                       <columns>
+                                          <TableColumn fx:id="visit_personIDColumn" prefWidth="199.0" text="门诊号" />
+                                       </columns>
+                                    </TableView>
+                                 </left>
+                                 <center>
+                                    <GridPane BorderPane.alignment="CENTER">
+                                       <columnConstraints>
+                                          <ColumnConstraints hgrow="SOMETIMES" maxWidth="283.6666259765625" minWidth="10.0" prefWidth="172.33331298828125" />
+                                          <ColumnConstraints hgrow="SOMETIMES" maxWidth="408.3333740234375" minWidth="10.0" prefWidth="205.66668701171875" />
+                                          <ColumnConstraints hgrow="SOMETIMES" maxWidth="408.3333740234375" minWidth="10.0" prefWidth="205.66668701171875" />
+                                       </columnConstraints>
+                                       <rowConstraints>
+                                          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                          <RowConstraints maxHeight="56.666656494140625" minHeight="10.0" prefHeight="56.666656494140625" vgrow="SOMETIMES" />
+                                          <RowConstraints maxHeight="55.333343505859375" minHeight="10.0" prefHeight="55.333343505859375" vgrow="SOMETIMES" />
+                                          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                       </rowConstraints>
+                                       <children>
+                                          <Label text="人员ID" />
+                                          <Label text="住院号（门诊号）" GridPane.rowIndex="1" />
+                                          <Label text="医疗类别(医院等级)" GridPane.rowIndex="2" />
+                                          <Label text="定点医疗机构编号（医院编号）" GridPane.rowIndex="3" />
+                                          <Label text="定点医疗机构名称（医院名称）" GridPane.rowIndex="4" />
+                                          <Label text="入院日期" GridPane.rowIndex="5" />
+                                          <Label text="出院日期" GridPane.rowIndex="6" />
+                                          <Label text="出院原因" GridPane.rowIndex="7" />
+                                          <Label text="Label" GridPane.columnIndex="1" />
+                                          <Label text="Label" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                                          <Label text="Label" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+                                          <Label text="Label" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+                                          <Label text="Label" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+                                          <Label text="Label" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+                                          <Label text="Label" GridPane.columnIndex="1" GridPane.rowIndex="6" />
+                                          <Label text="Label" GridPane.columnIndex="1" GridPane.rowIndex="7" />
+                                          <TextField fx:id="visit_personIDField" GridPane.columnIndex="1" />
+                                          <TextField fx:id="visit_outpatientCodeTextField" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                                          <TextField fx:id="visit_hospitalLevelTextField" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+                                          <TextField fx:id="visit_hospitalCodeTextField" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+                                          <TextField fx:id="visit_hospitalNameTextField" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+                                          <TextField fx:id="inDateTextField" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+                                          <TextField fx:id="outDateTextField" GridPane.columnIndex="1" GridPane.rowIndex="6" />
+                                          <TextField GridPane.columnIndex="1" GridPane.rowIndex="7" />
+                                          <TextField fx:id="outReasonTextField" GridPane.columnIndex="1" GridPane.rowIndex="7" />
+                                          <Label text="               格式：CN+数字" GridPane.columnIndex="2" />
+                                          <Label text="               格式：YY-MM-DD" GridPane.columnIndex="2" GridPane.rowIndex="5" />
+                                       </children>
+                                    </GridPane>
+                                 </center>
+                                 <right>
+                                    <FlowPane prefHeight="443.0" prefWidth="0.0" BorderPane.alignment="CENTER" />
+                                 </right>
+                              </BorderPane>
+                           </content>
+                        </Tab>
+                        <Tab text="处方信息维护与报销">
+                           <content>
+                              <BorderPane prefHeight="200.0" prefWidth="200.0">
+                                 <top>
+                                    <HBox prefHeight="0.0" prefWidth="600.0" BorderPane.alignment="CENTER">
+                                       <children>
+                                          <TextField fx:id="PrescriptionFilterField" />
+                                          <Button mnemonicParsing="false" onAction="#handleAddPrescription" text="新增处方" />
+                                          <Button mnemonicParsing="false" onAction="#handleAddPrescriptionItem" text="新增处方内药品" />
+                                          <Button mnemonicParsing="false" onAction="#handleChangePrescription" text="写入" />
+                                          <Button mnemonicParsing="false" onAction="#handleDeletePrescription" text="删除处方" />
+                                          <Button mnemonicParsing="false" onAction="#handleDeletePrescriptionItem" text="删除处方内药品" />
+                                       </children>
+                                    </HBox>
+                                 </top>
+                                 <left>
+                                    <TableView fx:id="prescriptionTable" prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+                                       <columns>
+                                          <TableColumn fx:id="prescription_outpateintCodeColumn" prefWidth="199.0" text="住院号(门诊号)" />
+                                       </columns>
+                                    </TableView>
+                                 </left>
+                                 <center>
+                                    <TableView fx:id="prescriptionItemTable" prefHeight="482.0" prefWidth="418.0" BorderPane.alignment="CENTER">
+                                      <columns>
+                                        <TableColumn fx:id="prescriptionItem_drugCodeColumn" prefWidth="127.66668701171875" text="项目编码(药品编码)" />
+                                        <TableColumn fx:id="prescriptionItem_drugPriceColumn" prefWidth="84.0" text="单价" />
+                                          <TableColumn fx:id="prescriptionItem_drugQuantityColumn" minWidth="0.0" prefWidth="82.66668701171875" text="数量" />
+                                          <TableColumn fx:id="prescriptionItem_totalColumn" prefWidth="138.0" text="项目总金额" />
+                                      </columns>
+                                    </TableView>
+                                 </center>
+                                 <right>
+                                    <VBox prefHeight="482.0" prefWidth="389.0" BorderPane.alignment="CENTER">
+                                       <children>
+                                          <HBox prefHeight="32.0" prefWidth="389.0">
+                                             <children>
+                                                <Label prefHeight="65.0" prefWidth="60.0" text="结果预览：" />
+                                                <Button mnemonicParsing="false" onAction="#handleReimburse" text="（预）结算" />
+                                                <HBox prefHeight="100.0" prefWidth="200.0">
+                                                   <children>
+                                                      <Label prefHeight="65.0" prefWidth="36.0" text="打印：" />
+                                                      <Button mnemonicParsing="false" onAction="#handlOutputPreCal" text="预结算" />
+                                                      <Button mnemonicParsing="false" onAction="#handleOutputCal" text="结算" />
+                                                   </children>
+                                                </HBox>
+                                             </children>
+                                          </HBox>
+                                          <TextArea fx:id="preview" prefHeight="481.0" prefWidth="258.0" />
+                                       </children>
+                                    </VBox>
+                                 </right>
+                              </BorderPane>
+                           </content>
+                        </Tab>
+                    </tabs>
+                  </TabPane>
+               </children></AnchorPane>
+      </content>
+    </Tab>
+  </tabs>
+</TabPane>

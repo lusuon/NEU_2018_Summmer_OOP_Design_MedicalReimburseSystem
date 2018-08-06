@@ -1,0 +1,1518 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="" />
+    <ignored path="JavaFxApplication.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DebuggerManager">
+    <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true" converted="true">
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </breakpoint_any>
+    <ui_properties converted="true" />
+    <breakpoint_rules converted="true" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="457250139">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.36" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="JAVA/sample" value="2" />
+          <entry key="MODULES/mdl-NEU_Summer" value="1" />
+          <entry key="Model" value="1" />
+          <entry key="Tools" value="1" />
+          <entry key="fxml" value="1" />
+          <entry key="java" value="8" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="8" />
+          <entry key="UML" value="5" />
+          <entry key="XML" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="JavaFxApplication" />
+    <favorites_list name="CodeIris Favorites" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="uml://JAVA/sample.Model">
+          <provider selected="true" editor-type-id="UmlEditorProvider">
+            <state>
+              <ID>JAVA</ID>
+              <OriginalElement>sample.Model</OriginalElement>
+              <nodes>
+                <node x="355.5" y="925.5">sample.Model.Prescription</node>
+                <node x="-25.0" y="937.0">sample.Model.PrescriptionItem</node>
+                <node x="1096.0" y="863.5">sample.Model.Attribute</node>
+                <node x="946.5" y="-35.0">sample.Model.Drug</node>
+                <node x="735.5" y="874.5">sample.Model.Standard</node>
+                <node x="-12.0" y="-7.0">sample.Model.Visit</node>
+                <node x="461.0" y="-7.0">sample.Model.Person</node>
+              </nodes>
+              <notes />
+              <edges>
+                <edge source="sample.Model.Prescription" target="sample.Model.PrescriptionItem">
+                  <point x="0.0" y="-234.5" />
+                  <point x="520.0" y="880.0" />
+                  <point x="120.0" y="880.0" />
+                  <point x="0.0" y="-223.0" />
+                </edge>
+              </edges>
+              <settings layout="Hierarchic Group" zoom="0.7548861131520939" x="147.1836276332188" y="1138.9287521899942" />
+              <SelectedNodes>
+                <node>sample.Model.Prescription</node>
+              </SelectedNodes>
+              <Categories>
+                <Category>Fields</Category>
+                <Category>Methods</Category>
+                <Category>Constructors</Category>
+              </Categories>
+              <SCOPE>All</SCOPE>
+              <VISIBILITY>private</VISIBILITY>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="uml://JAVA/sample">
+          <provider selected="true" editor-type-id="UmlEditorProvider">
+            <state>
+              <ID>JAVA</ID>
+              <OriginalElement>sample</OriginalElement>
+              <nodes>
+                <node x="85.07390299094851" y="0.0">sample.Tools.StringToNumberTools</node>
+                <node x="120.22390299094849" y="80.0">sample.Model.PrescriptionItem</node>
+                <node x="53.68515840220397" y="460.0">sample.Tools.Checker</node>
+                <node x="328.6513429752067" y="460.0">sample.Tools.Writer</node>
+                <node x="147.0" y="645.0">sample.Model.Attribute</node>
+                <node x="284.4164944903582" y="170.0">sample.Model.Standard</node>
+                <node x="404.4164944903582" y="170.0">sample.Model.Visit</node>
+                <node x="0.0" y="645.0">sample.MainApp</node>
+                <node x="41.41649449035822" y="170.0">sample.Model.Prescription</node>
+                <node x="496.4164944903582" y="170.0">sample.Model.Drug</node>
+                <node x="265.1513429752067" y="570.0">sample.Tools.Calculator</node>
+                <node x="258.4164944903582" y="350.0">sample.Tools.DataManager</node>
+                <node x="177.4164944903582" y="170.0">sample.Model.Person</node>
+              </nodes>
+              <notes />
+              <edges>
+                <edge source="sample.Tools.Checker" target="sample.Tools.StringToNumberTools">
+                  <point x="-18.80000000000001" y="-15.0" />
+                  <point x="81.88515840220396" y="430.0" />
+                  <point x="11.0" y="430.0" />
+                  <point x="11.0" y="60.0" />
+                  <point x="137.2739029909485" y="60.0" />
+                  <point x="-34.80000000000001" y="15.0" />
+                </edge>
+                <edge source="sample.Tools.Writer" target="sample.Model.Prescription">
+                  <point x="-35.0" y="-15.0" />
+                  <point x="335.6513429752067" y="420.0" />
+                  <point x="111.68515840220397" y="420.0" />
+                  <point x="111.68515840220397" y="320.0" />
+                  <point x="82.84506591892966" y="320.0" />
+                  <point x="-16.571428571428555" y="15.0" />
+                </edge>
+                <edge source="sample.Model.Prescription" target="sample.Model.PrescriptionItem">
+                  <point x="38.66666666666666" y="-15.0" />
+                  <point x="138.08316115702488" y="150.0" />
+                  <point x="191.2239029909485" y="150.0" />
+                  <point x="0.0" y="15.0" />
+                </edge>
+                <edge source="sample.Tools.Calculator" target="sample.Model.Visit">
+                  <point x="9.636363636363626" y="-15.0" />
+                  <point x="327.78770661157034" y="510.0" />
+                  <point x="494.52475649350646" y="510.0" />
+                  <point x="494.52475649350646" y="270.0" />
+                  <point x="470.4164944903582" y="270.0" />
+                  <point x="30.0" y="15.0" />
+                </edge>
+                <edge source="sample.Tools.DataManager" target="sample.Model.PrescriptionItem">
+                  <point x="-12.09523809523813" y="-15.0" />
+                  <point x="309.8212563951201" y="230.0" />
+                  <point x="273.9164944903582" y="230.0" />
+                  <point x="273.9164944903582" y="150.0" />
+                  <point x="219.6239029909485" y="150.0" />
+                  <point x="28.400000000000006" y="15.0" />
+                </edge>
+                <edge source="sample.Tools.DataManager" target="sample.Model.Prescription">
+                  <point x="-42.33333333333337" y="-15.0" />
+                  <point x="279.58316115702485" y="280.0" />
+                  <point x="149.13078020464394" y="280.0" />
+                  <point x="49.71428571428572" y="15.0" />
+                </edge>
+                <edge source="sample.Tools.Calculator" target="sample.Model.Drug">
+                  <point x="19.272727272727252" y="-15.0" />
+                  <point x="337.42407024793397" y="520.0" />
+                  <point x="547.6346049783549" y="520.0" />
+                  <point x="547.6346049783549" y="330.0" />
+                  <point x="566.9998278236916" y="330.0" />
+                  <point x="32.08333333333337" y="15.0" />
+                </edge>
+                <edge source="sample.Tools.Checker" target="sample.Model.Prescription">
+                  <point x="0.0" y="-15.0" />
+                  <point x="100.68515840220397" y="330.0" />
+                  <point x="66.27363734750105" y="330.0" />
+                  <point x="-33.14285714285717" y="15.0" />
+                </edge>
+                <edge source="sample.Model.PrescriptionItem" target="sample.Tools.StringToNumberTools">
+                  <point x="0.0" y="-15.0" />
+                  <point x="191.2239029909485" y="60.0" />
+                  <point x="172.0739029909485" y="60.0" />
+                  <point x="0.0" y="15.0" />
+                </edge>
+                <edge source="sample.Tools.DataManager" target="sample.Model.Drug">
+                  <point x="54.428571428571445" y="-15.0" />
+                  <point x="376.34506591892966" y="300.0" />
+                  <point x="528.4998278236916" y="300.0" />
+                  <point x="-6.416666666666629" y="15.0" />
+                </edge>
+                <edge source="sample.Tools.Writer" target="sample.Model.Drug">
+                  <point x="35.0" y="-15.0" />
+                  <point x="405.6513429752067" y="440.0" />
+                  <point x="480.27475649350646" y="440.0" />
+                  <point x="480.27475649350646" y="320.0" />
+                  <point x="554.1664944903582" y="320.0" />
+                  <point x="19.25" y="15.0" />
+                </edge>
+                <edge source="sample.Tools.DataManager" target="sample.Model.Person">
+                  <point x="-36.285714285714334" y="-15.0" />
+                  <point x="285.6307802046439" y="270.0" />
+                  <point x="213.2498278236915" y="270.0" />
+                  <point x="-7.166666666666686" y="15.0" />
+                </edge>
+                <edge source="sample.Tools.Writer" target="sample.Tools.DataManager">
+                  <point x="-7.0" y="-15.0" />
+                  <point x="363.6513429752067" y="400.0" />
+                  <point x="353.6664944903582" y="400.0" />
+                  <point x="31.75" y="15.0" />
+                </edge>
+                <edge source="sample.Tools.Writer" target="sample.Model.Person">
+                  <point x="-21.0" y="-15.0" />
+                  <point x="349.6513429752067" y="410.0" />
+                  <point x="199.0119982290438" y="410.0" />
+                  <point x="-21.5" y="15.0" />
+                </edge>
+                <edge source="sample.Tools.Calculator" target="sample.Model.Person">
+                  <point x="-19.272727272727252" y="-15.0" />
+                  <point x="298.87861570247946" y="520.0" />
+                  <point x="186.24982782369153" y="520.0" />
+                  <point x="186.24982782369153" y="330.0" />
+                  <point x="184.58316115702488" y="330.0" />
+                  <point x="-35.833333333333314" y="15.0" />
+                </edge>
+                <edge source="sample.Tools.Calculator" target="sample.Tools.DataManager">
+                  <point x="-9.636363636363626" y="-15.0" />
+                  <point x="308.5149793388431" y="440.0" />
+                  <point x="311.3331611570249" y="440.0" />
+                  <point x="-10.583333333333314" y="15.0" />
+                </edge>
+                <edge source="sample.Tools.DataManager" target="sample.Model.Standard">
+                  <point x="0.0" y="-15.0" />
+                  <point x="-12.5" y="15.0" />
+                </edge>
+                <edge source="sample.Tools.Calculator" target="sample.Model.Prescription">
+                  <point x="-48.18181818181819" y="-15.0" />
+                  <point x="269.96952479338853" y="550.0" />
+                  <point x="43.18515840220391" y="550.0" />
+                  <point x="43.18515840220391" y="330.0" />
+                  <point x="49.702208776072496" y="330.0" />
+                  <point x="-49.71428571428572" y="15.0" />
+                </edge>
+                <edge source="sample.Tools.DataManager" target="sample.Model.Visit">
+                  <point x="30.23809523809524" y="-15.0" />
+                  <point x="352.15458972845346" y="260.0" />
+                  <point x="434.4164944903582" y="260.0" />
+                  <point x="-6.0" y="15.0" />
+                </edge>
+                <edge source="sample.Tools.Calculator" target="sample.Model.PrescriptionItem">
+                  <point x="28.909090909090935" y="-15.0" />
+                  <point x="347.06043388429765" y="530.0" />
+                  <point x="584.1778581267218" y="530.0" />
+                  <point x="584.1778581267218" y="140.0" />
+                  <point x="248.0239029909485" y="140.0" />
+                  <point x="56.80000000000001" y="15.0" />
+                </edge>
+                <edge source="sample.Tools.Writer" target="sample.Model.Visit">
+                  <point x="21.0" y="-15.0" />
+                  <point x="391.6513429752067" y="430.0" />
+                  <point x="453.4164944903582" y="430.0" />
+                  <point x="453.4164944903582" y="270.0" />
+                  <point x="458.4164944903582" y="270.0" />
+                  <point x="18.0" y="15.0" />
+                </edge>
+                <edge source="sample.Tools.Calculator" target="sample.Tools.Checker">
+                  <point x="-38.54545454545456" y="-15.0" />
+                  <point x="279.60588842975216" y="540.0" />
+                  <point x="77.18515840220397" y="540.0" />
+                  <point x="-23.5" y="15.0" />
+                </edge>
+                <edge source="sample.Tools.Calculator" target="sample.Tools.StringToNumberTools">
+                  <point x="38.54545454545456" y="-15.0" />
+                  <point x="356.6967975206613" y="540.0" />
+                  <point x="601.3460399449036" y="540.0" />
+                  <point x="601.3460399449036" y="60.0" />
+                  <point x="206.87390299094852" y="60.0" />
+                  <point x="34.80000000000001" y="15.0" />
+                </edge>
+                <edge source="sample.Tools.Checker" target="sample.Tools.DataManager">
+                  <point x="37.599999999999994" y="-15.0" />
+                  <point x="138.28515840220396" y="440.0" />
+                  <point x="290.1664944903582" y="440.0" />
+                  <point x="-31.75" y="15.0" />
+                </edge>
+              </edges>
+              <settings layout="Hierarchic Group" zoom="0.8" x="492.2114968364968" y="674.375" />
+              <SelectedNodes>
+                <node>sample.MainApp</node>
+              </SelectedNodes>
+              <Categories />
+              <SCOPE>All</SCOPE>
+              <VISIBILITY>private</VISIBILITY>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="uml://JAVA/sample.Tools">
+          <provider selected="true" editor-type-id="UmlEditorProvider">
+            <state>
+              <ID>JAVA</ID>
+              <OriginalElement>sample.Tools</OriginalElement>
+              <nodes>
+                <node x="547.8125" y="173.0">sample.Tools.StringToNumberTools</node>
+                <node x="403.5" y="611.0">sample.Tools.Checker</node>
+                <node x="10.5" y="691.5">sample.Tools.Writer</node>
+                <node x="399.48611111111114" y="1070.0">sample.Tools.Calculator</node>
+                <node x="212.1944444444444" y="0.0">sample.Tools.DataManager</node>
+              </nodes>
+              <notes />
+              <edges>
+                <edge source="sample.Tools.Checker" target="sample.Tools.StringToNumberTools">
+                  <point x="109.875" y="-199.5" />
+                  <point x="659.875" y="591.0" />
+                  <point x="646.8125" y="591.0" />
+                  <point x="-33.0" y="107.5" />
+                </edge>
+                <edge source="sample.Tools.Calculator" target="sample.Tools.Checker">
+                  <point x="-23.416666666666686" y="-314.5" />
+                  <point x="516.5694444444445" y="1050.0" />
+                  <point x="476.75" y="1050.0" />
+                  <point x="-73.25" y="199.5" />
+                </edge>
+                <edge source="sample.Tools.Writer" target="sample.Tools.DataManager">
+                  <point x="93.0" y="-119.0" />
+                  <point x="289.5" y="591.0" />
+                  <point x="328.02777777777777" y="591.0" />
+                  <point x="-23.16666666666663" y="280.5" />
+                </edge>
+                <edge source="sample.Tools.Calculator" target="sample.Tools.StringToNumberTools">
+                  <point x="70.25" y="-314.5" />
+                  <point x="610.2361111111111" y="1040.0" />
+                  <point x="731.7569444444445" y="1040.0" />
+                  <point x="731.7569444444445" y="591.0" />
+                  <point x="712.8125" y="591.0" />
+                  <point x="33.0" y="107.5" />
+                </edge>
+                <edge source="sample.Tools.Checker" target="sample.Tools.DataManager">
+                  <point x="-109.875" y="-199.5" />
+                  <point x="440.125" y="591.0" />
+                  <point x="420.6944444444444" y="591.0" />
+                  <point x="69.5" y="280.5" />
+                </edge>
+                <edge source="sample.Tools.Calculator" target="sample.Tools.DataManager">
+                  <point x="-70.25000000000003" y="-314.5" />
+                  <point x="469.7361111111111" y="1040.0" />
+                  <point x="393.0" y="1040.0" />
+                  <point x="393.0" y="591.0" />
+                  <point x="374.36111111111114" y="591.0" />
+                  <point x="23.166666666666742" y="280.5" />
+                </edge>
+              </edges>
+              <settings layout="Hierarchic Group" zoom="0.7000000000000001" x="-287.93650793650755" y="1404.857142857143" />
+              <SelectedNodes>
+                <node>sample.Tools.StringToNumberTools</node>
+              </SelectedNodes>
+              <Categories>
+                <Category>Methods</Category>
+                <Category>Fields</Category>
+                <Category>Properties</Category>
+              </Categories>
+              <SCOPE>All</SCOPE>
+              <VISIBILITY>private</VISIBILITY>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sample/MainApp.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="22" column="14" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sample/Model/Drug.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-549">
+              <caret line="29" column="7" selection-start-line="29" selection-start-column="7" selection-end-line="29" selection-end-column="7" />
+              <folding>
+                <element signature="method#Drug#0;class#Drug#0" />
+                <element signature="method#toString#0;class#Drug#0" />
+                <element signature="e#2925#2926#0" expanded="true" />
+                <element signature="e#2967#2968#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>Cache</find>
+      <find>prescription</find>
+      <find>dataManager.</find>
+      <find>DataManager.getDataManager()</find>
+      <find>get</find>
+      <find>name</find>
+      <find>people</find>
+      <find>People</find>
+      <find>visitData</find>
+      <find>ChECK</find>
+      <find>PersonID</find>
+      <find>handle</find>
+      <find>Alert</find>
+      <find>;</find>
+      <find>Visit</find>
+      <find>prescriptionTotal</find>
+      <find>visitTimes</find>
+      <find>drug</find>
+      <find>drugNameField</find>
+      <find>drugIDField</find>
+      <find>nameTextField</find>
+      <find>isDate</find>
+      <find>Column</find>
+      <find>Column.setCell</find>
+      <find>visit_outpatientCodeColumn</find>
+      <find>handleC</find>
+      <find>visit_personIDColumn</find>
+      <find>System.out</find>
+      <find>System.d</find>
+      <find>yearTotal</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>/</replace>
+      <replace>+&quot;,&quot;+</replace>
+      <replace>bw</replace>
+      <replace>Drug</replace>
+      <replace>prescriptionItem</replace>
+      <replace>.setCellValueFactory(cellData -&gt; cellData.getValue().prescriptionIDProperty());</replace>
+      <replace>String</replace>
+      <replace>prescription</replace>
+      <replace>pre_outpatientCode</replace>
+      <replace>total</replace>
+      <replace>line</replace>
+      <replace>clearTxt</replace>
+      <replace>visit</replace>
+      <replace>+&quot;\r\n&quot;;</replace>
+      <replace>Cpart_selfPay</replace>
+      <replace>drug</replace>
+      <replace>reWriteTxt</replace>
+      <replace>Visit</replace>
+      <replace>getPrice()</replace>
+      <replace>allowReimbursePrice</replace>
+      <replace>stringTodouble</replace>
+      <replace>maxPrice</replace>
+      <replace>reimburse_prescription</replace>
+      <replace>DataManager.getDatamanager().</replace>
+      <replace>DataManager.getDatamanager()</replace>
+      <replace>Drugs</replace>
+      <replace>dataManager</replace>
+      <replace>);</replace>
+      <replace>Prescription</replace>
+      <replace>drugID</replace>
+    </replaceStrings>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/sample/Tools/Checker.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/sample/Tools/DataManager.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/sample/Tools/Calculator.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/sample/SampleController.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/sample/Tools/Writer.java" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/sample/Controller.java" />
+        <option value="$PROJECT_DIR$/src/sample/Model/Admin.java" />
+        <option value="$PROJECT_DIR$/src/sample/ReimburseTabController.java" />
+        <option value="$PROJECT_DIR$/src/sample/LoginTabController.java" />
+        <option value="$PROJECT_DIR$/src/test.java" />
+        <option value="$PROJECT_DIR$/src/sample/PrescriptionTabController.java" />
+        <option value="$PROJECT_DIR$/src/sample/PersonTabController.java" />
+        <option value="$PROJECT_DIR$/src/sample/DB/AdminDB.java" />
+        <option value="$PROJECT_DIR$/src/sample/DrugTabController.java" />
+        <option value="$PROJECT_DIR$/src/sample/VisiftTabController.java" />
+        <option value="$PROJECT_DIR$/src/sample/PersonTab.fxml" />
+        <option value="$PROJECT_DIR$/src/sample/DrugTab.fxml" />
+        <option value="$PROJECT_DIR$/src/sample/VisiftTab.fxml" />
+        <option value="$PROJECT_DIR$/src/sample/PrescriptionTab.fxml" />
+        <option value="$PROJECT_DIR$/src/sample/sample - 副本.fxml" />
+        <option value="$PROJECT_DIR$/src/sample/VisitTabController.java" />
+        <option value="$PROJECT_DIR$/src/sample/backup/PrescriptionTab.java" />
+        <option value="$PROJECT_DIR$/src/sample/DB/PrescriptionDB.java" />
+        <option value="$PROJECT_DIR$/src/sample/DB/PersonDB.java" />
+        <option value="$PROJECT_DIR$/src/sample/DB/DrugDB.java" />
+        <option value="$PROJECT_DIR$/src/sample/DB/AttributeDB.java" />
+        <option value="$PROJECT_DIR$/src/sample/DB/VisitDB.java" />
+        <option value="$PROJECT_DIR$/src/sample/Tools/LoadData.java" />
+        <option value="$PROJECT_DIR$/src/sample/Tools/DataLoader.java" />
+        <option value="$PROJECT_DIR$/src/sample/Tools/Calculate.java" />
+        <option value="$PROJECT_DIR$/src/sample/Tools/String2Number.java" />
+        <option value="$PROJECT_DIR$/src/sample/Tools/StringToNumber.java" />
+        <option value="$PROJECT_DIR$/src/sample/Tools/Calculation.java" />
+        <option value="$PROJECT_DIR$/src/sample/Tools/WriteInTxt.java" />
+        <option value="$PROJECT_DIR$/src/sample/Tools/Check.java" />
+        <option value="$PROJECT_DIR$/src/sample/sample.fxml" />
+        <option value="$PROJECT_DIR$/src/sample/Model/Standard.java" />
+        <option value="$PROJECT_DIR$/src/sample/Model/PrescriptionItem.java" />
+        <option value="$PROJECT_DIR$/src/sample/Model/Prescription.java" />
+        <option value="$PROJECT_DIR$/src/sample/Model/Person.java" />
+        <option value="$PROJECT_DIR$/src/sample/Model/Drug.java" />
+        <option value="$PROJECT_DIR$/src/sample/Model/Attribute.java" />
+        <option value="$PROJECT_DIR$/src/sample/Tools/Writer.java" />
+        <option value="$PROJECT_DIR$/src/sample/Tools/StringToNumberTools.java" />
+        <option value="$PROJECT_DIR$/src/sample/MainApp.java" />
+        <option value="$PROJECT_DIR$/src/sample/Tools/Checker.java" />
+        <option value="$PROJECT_DIR$/src/sample/Tools/DataManager.java" />
+        <option value="$PROJECT_DIR$/src/sample/Tools/Calculator.java" />
+        <option value="$PROJECT_DIR$/src/sample/Model/Visit.java" />
+        <option value="$PROJECT_DIR$/src/sample/SampleController.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-12" />
+    <option name="y" value="-12" />
+    <option name="width" value="1101" />
+    <option name="height" value="1392" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="NEU_Summer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NEU_Summer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NEU_Summer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NEU_Summer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NEU_Summer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NEU_Summer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sample" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NEU_Summer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NEU_Summer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sample" type="462c0819:PsiDirectoryNode" />
+              <item name="Model" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="GoToClass.includeLibraries" value="false" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="OverrideImplement.combined" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1533275246654" />
+    <property name="dynamic.classpath" value="false" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="recentsLimit" value="5" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <option name="VMOptions" />
+      <option name="arguments" />
+      <option name="filePath" />
+      <option name="scope" value="ALL" />
+      <option name="testName" />
+      <method />
+    </configuration>
+    <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
+      <Host>localhost</Host>
+      <Port>5050</Port>
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AttributeDB" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sample.DB.AttributeDB" />
+      <module name="NEU_Summer" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sample.DB.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="sample.MainApp" />
+      <module name="NEU_Summer" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sample.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StringToNumberTools" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sample.Tools.StringToNumberTools" />
+      <module name="NEU_Summer" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sample.Tools.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.AttributeDB" />
+      <item itemvalue="Application.StringToNumberTools" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.StringToNumberTools" />
+        <item itemvalue="Application.AttributeDB" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="" />
+      <created>1359379246138</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1359379246138</updated>
+      <workItem from="1359379250712" duration="1302000" />
+      <workItem from="1533209734226" duration="13857000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="15159000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1455" height="935" extended-state="6" />
+    <layout>
+      <window_info id="Designer" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.1460272" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="UI Designer" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="设计器" order="6" />
+      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.89334285" weight="0.33374843" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39924905" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Application Servers" order="7" />
+      <window_info anchor="bottom" id="Messages" order="8" sideWeight="0.49749464" weight="0.32916147" />
+      <window_info anchor="bottom" id="Profiler" order="9" />
+      <window_info anchor="bottom" id="Changes" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.106657125" side_tool="true" weight="0.32916147" />
+      <window_info anchor="bottom" id="Problems" order="12" />
+      <window_info anchor="bottom" id="Version Control" order="13" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="14" />
+      <window_info anchor="right" id="UML Diagrams" type="SLIDING" />
+      <window_info anchor="right" id="Graphical Navigator" type="SLIDING" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="JetGradle" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="调色板" order="6" />
+      <window_info anchor="right" id="Maven Projects" order="7" weight="0.32999283" />
+      <window_info anchor="right" id="Code Iris" order="8" weight="0.7315676" />
+      <window_info anchor="right" id="Database" order="9" />
+      <window_info anchor="right" id="Palette&#9;" order="10" />
+      <window_info anchor="right" id="Theme Preview" order="11" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6703755" weight="0.44237652" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="UI Designer" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="设计器" order="6" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.89334285" visible="true" weight="0.33416772" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39924905" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Application Servers" order="7" />
+      <window_info anchor="bottom" id="Messages" order="8" sideWeight="0.49749464" weight="0.32916147" />
+      <window_info anchor="bottom" id="Profiler" order="9" />
+      <window_info anchor="bottom" id="Changes" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.106657125" side_tool="true" weight="0.32916147" />
+      <window_info anchor="bottom" id="Problems" order="12" />
+      <window_info anchor="bottom" id="Version Control" order="13" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="14" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="JetGradle" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="调色板" order="6" />
+      <window_info anchor="right" id="Maven Projects" order="7" weight="0.32999283" />
+      <window_info anchor="right" id="Code Iris" order="8" weight="0.7315676" />
+      <window_info anchor="right" id="Database" order="9" />
+      <window_info anchor="right" id="Palette&#9;" order="10" />
+      <window_info anchor="right" id="Theme Preview" order="11" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
+    <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/sample/LoginTabController.java" />
+    <entry file="file://$PROJECT_DIR$/src/sample/UnReimburseController.java" />
+    <entry file="file://$PROJECT_DIR$/src/sample/预结算和结算.txt" />
+    <entry file="file://$PROJECT_DIR$/src/sample/药品信息.txt" />
+    <entry file="file://$PROJECT_DIR$/src/sample/DrugTabController.java" />
+    <entry file="file://$PROJECT_DIR$/src/sample/VisitTabController.java" />
+    <entry file="jar://C:/Program Files/Java/jdk-9.0.4/lib/src.zip!/java.base/java/io/OutputStreamWriter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="92" column="11" selection-start-line="92" selection-start-column="11" selection-end-line="92" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/PersonTabController.java" />
+    <entry file="jar://C:/Program Files/Java/jdk-9.0.4/lib/src.zip!/javafx.fxml/javafx/fxml/FXML.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="334">
+          <caret line="67" column="18" selection-start-line="67" selection-start-column="18" selection-end-line="67" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/backup/PersonTabController.java" />
+    <entry file="file://$PROJECT_DIR$/src/sample/DB/AdminDB.java" />
+    <entry file="file://$PROJECT_DIR$/src/sample/backup/PrescriptionTab.java" />
+    <entry file="jar://C:/Program Files/Java/jdk-9.0.4/lib/src.zip!/java.base/java/io/BufferedReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7942">
+          <caret line="391" selection-start-line="391" selection-end-line="391" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-9.0.4/lib/src.zip!/java.base/java/io/FileInputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5082">
+          <caret line="255" selection-start-line="255" selection-end-line="255" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-9.0.4/lib/src.zip!/java.base/sun/nio/cs/StreamDecoder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3256">
+          <caret line="177" selection-start-line="177" selection-end-line="177" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-9.0.4/lib/src.zip!/javafx.base/javafx/util/Callback.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="334">
+          <caret line="51" column="13" selection-start-line="51" selection-start-column="13" selection-end-line="51" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/backup/PrescriptionTabController.java" />
+    <entry file="file://$PROJECT_DIR$/src/sample/DB/Todo.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="2" lean-forward="true" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Packages/BooStudioLLC.8ZipNew_b6e429xa66pga/TempState/OpenOperation/FileToMap.class" />
+    <entry file="jar://C:/Program Files/Java/jdk-9.0.4/lib/src.zip!/java.base/java/util/AbstractList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="166" selection-start-line="166" selection-end-line="166" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/DB/PrescriptionDB.java" />
+    <entry file="file://$PROJECT_DIR$/src/sample/DB/PersonDB.java" />
+    <entry file="file://$PROJECT_DIR$/src/sample/DB/AttributeDB.java" />
+    <entry file="file://$PROJECT_DIR$/src/sample/DB/VisitDB.java" />
+    <entry file="file://$PROJECT_DIR$/src/sample/DB/DrugDB.java" />
+    <entry file="file://$PROJECT_DIR$/src/sample/Model/Admin.java" />
+    <entry file="file://$PROJECT_DIR$/../backup_code/DB/PrescriptionDB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="60" column="1" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="60" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../backup_code/SampleController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="449">
+          <caret line="998" column="49" lean-forward="true" selection-start-line="998" selection-start-column="49" selection-end-line="998" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-9.0.4/lib/src.zip!/java.base/java/util/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="165" column="11" selection-start-line="165" selection-start-column="11" selection-end-line="165" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-9.0.4/lib/src.zip!/javafx.fxml/javafx/fxml/FXMLLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1786" selection-start-line="1786" selection-end-line="1786" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/1711 花若愚/HosptalSystem/tools/FeeCalculation.java" />
+    <entry file="file://$PROJECT_DIR$/src/sample/Model/PrescriptionItem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="35" column="24" selection-start-line="35" selection-start-column="24" selection-end-line="35" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Model/Prescription.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="372">
+          <caret line="61" column="14" lean-forward="true" selection-start-line="61" selection-start-column="14" selection-end-line="61" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Model/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="51" column="24" selection-start-line="51" selection-start-column="24" selection-end-line="51" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-9.0.4/lib/src.zip!/java.base/java/lang/Double.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="542" selection-start-line="542" selection-end-line="542" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Tools/StringToNumberTools.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="86" selection-start-line="86" selection-end-line="86" />
+          <folding>
+            <element signature="method#isStrToInt#0;class#StringToNumberTools#0" />
+            <element signature="method#isStrToDouble#0;class#StringToNumberTools#0" />
+            <element signature="method#stringToInt#0;class#StringToNumberTools#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://MODULES/mdl-NEU_Summer">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>MODULES</ID>
+          <OriginalElement>mdl-NEU_Summer</OriginalElement>
+          <nodes>
+            <node x="" y="">mdl-NEU_Summer</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="82.5" y="15.0" />
+          <SelectedNodes />
+          <Categories />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/SampleController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="917" column="104" selection-start-line="917" selection-start-column="104" selection-end-line="917" selection-end-column="104" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Tools/DataManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="143" column="76" selection-start-line="143" selection-start-column="76" selection-end-line="143" selection-end-column="76" />
+          <folding>
+            <element signature="e#1918#1919#0" expanded="true" />
+            <element signature="e#1967#1968#0" expanded="true" />
+            <element signature="e#2061#2832#0" />
+            <element signature="e#3078#3809#0" />
+            <element signature="e#3917#3918#0" expanded="true" />
+            <element signature="e#3953#3954#0" expanded="true" />
+            <element signature="e#4847#5067#0" />
+            <element signature="e#7358#7359#0" expanded="true" />
+            <element signature="e#7398#7399#0" expanded="true" />
+            <element signature="e#7588#7589#0" expanded="true" />
+            <element signature="e#7628#7629#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Tools/Writer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="358">
+          <caret line="83" column="32" selection-start-line="83" selection-start-column="32" selection-end-line="83" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/sample.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-330" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Tools/Calculator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9">
+          <caret line="181" column="68" selection-start-line="181" selection-start-column="68" selection-end-line="181" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Model/Attribute.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="25" lean-forward="true" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Model/Standard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="682">
+          <caret line="31" column="24" selection-start-line="31" selection-start-column="24" selection-end-line="31" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Tools/Checker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="990">
+          <caret line="58" selection-start-line="58" selection-end-line="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Model/Visit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-989">
+          <caret line="40" column="56" selection-start-line="40" selection-start-column="56" selection-end-line="40" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Model/Drug.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-549">
+          <caret line="29" column="7" selection-start-line="29" selection-start-column="7" selection-end-line="29" selection-end-column="7" />
+          <folding>
+            <element signature="method#Drug#0;class#Drug#0" />
+            <element signature="method#toString#0;class#Drug#0" />
+            <element signature="e#2925#2926#0" expanded="true" />
+            <element signature="e#2967#2968#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/MainApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="22" column="14" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/sample.Tools">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>sample.Tools</OriginalElement>
+          <nodes>
+            <node x="547.8125" y="173.0">sample.Tools.StringToNumberTools</node>
+            <node x="403.5" y="611.0">sample.Tools.Checker</node>
+            <node x="10.5" y="691.5">sample.Tools.Writer</node>
+            <node x="399.48611111111114" y="1070.0">sample.Tools.Calculator</node>
+            <node x="212.1944444444444" y="0.0">sample.Tools.DataManager</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="sample.Tools.Checker" target="sample.Tools.StringToNumberTools">
+              <point x="109.875" y="-199.5" />
+              <point x="659.875" y="591.0" />
+              <point x="646.8125" y="591.0" />
+              <point x="-33.0" y="107.5" />
+            </edge>
+            <edge source="sample.Tools.Calculator" target="sample.Tools.Checker">
+              <point x="-23.416666666666686" y="-314.5" />
+              <point x="516.5694444444445" y="1050.0" />
+              <point x="476.75" y="1050.0" />
+              <point x="-73.25" y="199.5" />
+            </edge>
+            <edge source="sample.Tools.Writer" target="sample.Tools.DataManager">
+              <point x="93.0" y="-119.0" />
+              <point x="289.5" y="591.0" />
+              <point x="328.02777777777777" y="591.0" />
+              <point x="-23.16666666666663" y="280.5" />
+            </edge>
+            <edge source="sample.Tools.Calculator" target="sample.Tools.StringToNumberTools">
+              <point x="70.25" y="-314.5" />
+              <point x="610.2361111111111" y="1040.0" />
+              <point x="731.7569444444445" y="1040.0" />
+              <point x="731.7569444444445" y="591.0" />
+              <point x="712.8125" y="591.0" />
+              <point x="33.0" y="107.5" />
+            </edge>
+            <edge source="sample.Tools.Checker" target="sample.Tools.DataManager">
+              <point x="-109.875" y="-199.5" />
+              <point x="440.125" y="591.0" />
+              <point x="420.6944444444444" y="591.0" />
+              <point x="69.5" y="280.5" />
+            </edge>
+            <edge source="sample.Tools.Calculator" target="sample.Tools.DataManager">
+              <point x="-70.25000000000003" y="-314.5" />
+              <point x="469.7361111111111" y="1040.0" />
+              <point x="393.0" y="1040.0" />
+              <point x="393.0" y="591.0" />
+              <point x="374.36111111111114" y="591.0" />
+              <point x="23.166666666666742" y="280.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="0.7000000000000001" x="-287.93650793650755" y="1404.857142857143" />
+          <SelectedNodes>
+            <node>sample.Tools.StringToNumberTools</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Methods</Category>
+            <Category>Fields</Category>
+            <Category>Properties</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/sample.Model">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>sample.Model</OriginalElement>
+          <nodes>
+            <node x="355.5" y="925.5">sample.Model.Prescription</node>
+            <node x="-25.0" y="937.0">sample.Model.PrescriptionItem</node>
+            <node x="1096.0" y="863.5">sample.Model.Attribute</node>
+            <node x="946.5" y="-35.0">sample.Model.Drug</node>
+            <node x="735.5" y="874.5">sample.Model.Standard</node>
+            <node x="-12.0" y="-7.0">sample.Model.Visit</node>
+            <node x="461.0" y="-7.0">sample.Model.Person</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="sample.Model.Prescription" target="sample.Model.PrescriptionItem">
+              <point x="0.0" y="-234.5" />
+              <point x="520.0" y="880.0" />
+              <point x="120.0" y="880.0" />
+              <point x="0.0" y="-223.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="0.7548861131520939" x="147.1836276332188" y="1138.9287521899942" />
+          <SelectedNodes>
+            <node>sample.Model.Prescription</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Methods</Category>
+            <Category>Constructors</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/sample">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>sample</OriginalElement>
+          <nodes>
+            <node x="85.07390299094851" y="0.0">sample.Tools.StringToNumberTools</node>
+            <node x="120.22390299094849" y="80.0">sample.Model.PrescriptionItem</node>
+            <node x="53.68515840220397" y="460.0">sample.Tools.Checker</node>
+            <node x="328.6513429752067" y="460.0">sample.Tools.Writer</node>
+            <node x="147.0" y="645.0">sample.Model.Attribute</node>
+            <node x="284.4164944903582" y="170.0">sample.Model.Standard</node>
+            <node x="404.4164944903582" y="170.0">sample.Model.Visit</node>
+            <node x="0.0" y="645.0">sample.MainApp</node>
+            <node x="41.41649449035822" y="170.0">sample.Model.Prescription</node>
+            <node x="496.4164944903582" y="170.0">sample.Model.Drug</node>
+            <node x="265.1513429752067" y="570.0">sample.Tools.Calculator</node>
+            <node x="258.4164944903582" y="350.0">sample.Tools.DataManager</node>
+            <node x="177.4164944903582" y="170.0">sample.Model.Person</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="sample.Tools.Checker" target="sample.Tools.StringToNumberTools">
+              <point x="-18.80000000000001" y="-15.0" />
+              <point x="81.88515840220396" y="430.0" />
+              <point x="11.0" y="430.0" />
+              <point x="11.0" y="60.0" />
+              <point x="137.2739029909485" y="60.0" />
+              <point x="-34.80000000000001" y="15.0" />
+            </edge>
+            <edge source="sample.Tools.Writer" target="sample.Model.Prescription">
+              <point x="-35.0" y="-15.0" />
+              <point x="335.6513429752067" y="420.0" />
+              <point x="111.68515840220397" y="420.0" />
+              <point x="111.68515840220397" y="320.0" />
+              <point x="82.84506591892966" y="320.0" />
+              <point x="-16.571428571428555" y="15.0" />
+            </edge>
+            <edge source="sample.Model.Prescription" target="sample.Model.PrescriptionItem">
+              <point x="38.66666666666666" y="-15.0" />
+              <point x="138.08316115702488" y="150.0" />
+              <point x="191.2239029909485" y="150.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="sample.Tools.Calculator" target="sample.Model.Visit">
+              <point x="9.636363636363626" y="-15.0" />
+              <point x="327.78770661157034" y="510.0" />
+              <point x="494.52475649350646" y="510.0" />
+              <point x="494.52475649350646" y="270.0" />
+              <point x="470.4164944903582" y="270.0" />
+              <point x="30.0" y="15.0" />
+            </edge>
+            <edge source="sample.Tools.DataManager" target="sample.Model.PrescriptionItem">
+              <point x="-12.09523809523813" y="-15.0" />
+              <point x="309.8212563951201" y="230.0" />
+              <point x="273.9164944903582" y="230.0" />
+              <point x="273.9164944903582" y="150.0" />
+              <point x="219.6239029909485" y="150.0" />
+              <point x="28.400000000000006" y="15.0" />
+            </edge>
+            <edge source="sample.Tools.DataManager" target="sample.Model.Prescription">
+              <point x="-42.33333333333337" y="-15.0" />
+              <point x="279.58316115702485" y="280.0" />
+              <point x="149.13078020464394" y="280.0" />
+              <point x="49.71428571428572" y="15.0" />
+            </edge>
+            <edge source="sample.Tools.Calculator" target="sample.Model.Drug">
+              <point x="19.272727272727252" y="-15.0" />
+              <point x="337.42407024793397" y="520.0" />
+              <point x="547.6346049783549" y="520.0" />
+              <point x="547.6346049783549" y="330.0" />
+              <point x="566.9998278236916" y="330.0" />
+              <point x="32.08333333333337" y="15.0" />
+            </edge>
+            <edge source="sample.Tools.Checker" target="sample.Model.Prescription">
+              <point x="0.0" y="-15.0" />
+              <point x="100.68515840220397" y="330.0" />
+              <point x="66.27363734750105" y="330.0" />
+              <point x="-33.14285714285717" y="15.0" />
+            </edge>
+            <edge source="sample.Model.PrescriptionItem" target="sample.Tools.StringToNumberTools">
+              <point x="0.0" y="-15.0" />
+              <point x="191.2239029909485" y="60.0" />
+              <point x="172.0739029909485" y="60.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="sample.Tools.DataManager" target="sample.Model.Drug">
+              <point x="54.428571428571445" y="-15.0" />
+              <point x="376.34506591892966" y="300.0" />
+              <point x="528.4998278236916" y="300.0" />
+              <point x="-6.416666666666629" y="15.0" />
+            </edge>
+            <edge source="sample.Tools.Writer" target="sample.Model.Drug">
+              <point x="35.0" y="-15.0" />
+              <point x="405.6513429752067" y="440.0" />
+              <point x="480.27475649350646" y="440.0" />
+              <point x="480.27475649350646" y="320.0" />
+              <point x="554.1664944903582" y="320.0" />
+              <point x="19.25" y="15.0" />
+            </edge>
+            <edge source="sample.Tools.DataManager" target="sample.Model.Person">
+              <point x="-36.285714285714334" y="-15.0" />
+              <point x="285.6307802046439" y="270.0" />
+              <point x="213.2498278236915" y="270.0" />
+              <point x="-7.166666666666686" y="15.0" />
+            </edge>
+            <edge source="sample.Tools.Writer" target="sample.Tools.DataManager">
+              <point x="-7.0" y="-15.0" />
+              <point x="363.6513429752067" y="400.0" />
+              <point x="353.6664944903582" y="400.0" />
+              <point x="31.75" y="15.0" />
+            </edge>
+            <edge source="sample.Tools.Writer" target="sample.Model.Person">
+              <point x="-21.0" y="-15.0" />
+              <point x="349.6513429752067" y="410.0" />
+              <point x="199.0119982290438" y="410.0" />
+              <point x="-21.5" y="15.0" />
+            </edge>
+            <edge source="sample.Tools.Calculator" target="sample.Model.Person">
+              <point x="-19.272727272727252" y="-15.0" />
+              <point x="298.87861570247946" y="520.0" />
+              <point x="186.24982782369153" y="520.0" />
+              <point x="186.24982782369153" y="330.0" />
+              <point x="184.58316115702488" y="330.0" />
+              <point x="-35.833333333333314" y="15.0" />
+            </edge>
+            <edge source="sample.Tools.Calculator" target="sample.Tools.DataManager">
+              <point x="-9.636363636363626" y="-15.0" />
+              <point x="308.5149793388431" y="440.0" />
+              <point x="311.3331611570249" y="440.0" />
+              <point x="-10.583333333333314" y="15.0" />
+            </edge>
+            <edge source="sample.Tools.DataManager" target="sample.Model.Standard">
+              <point x="0.0" y="-15.0" />
+              <point x="-12.5" y="15.0" />
+            </edge>
+            <edge source="sample.Tools.Calculator" target="sample.Model.Prescription">
+              <point x="-48.18181818181819" y="-15.0" />
+              <point x="269.96952479338853" y="550.0" />
+              <point x="43.18515840220391" y="550.0" />
+              <point x="43.18515840220391" y="330.0" />
+              <point x="49.702208776072496" y="330.0" />
+              <point x="-49.71428571428572" y="15.0" />
+            </edge>
+            <edge source="sample.Tools.DataManager" target="sample.Model.Visit">
+              <point x="30.23809523809524" y="-15.0" />
+              <point x="352.15458972845346" y="260.0" />
+              <point x="434.4164944903582" y="260.0" />
+              <point x="-6.0" y="15.0" />
+            </edge>
+            <edge source="sample.Tools.Calculator" target="sample.Model.PrescriptionItem">
+              <point x="28.909090909090935" y="-15.0" />
+              <point x="347.06043388429765" y="530.0" />
+              <point x="584.1778581267218" y="530.0" />
+              <point x="584.1778581267218" y="140.0" />
+              <point x="248.0239029909485" y="140.0" />
+              <point x="56.80000000000001" y="15.0" />
+            </edge>
+            <edge source="sample.Tools.Writer" target="sample.Model.Visit">
+              <point x="21.0" y="-15.0" />
+              <point x="391.6513429752067" y="430.0" />
+              <point x="453.4164944903582" y="430.0" />
+              <point x="453.4164944903582" y="270.0" />
+              <point x="458.4164944903582" y="270.0" />
+              <point x="18.0" y="15.0" />
+            </edge>
+            <edge source="sample.Tools.Calculator" target="sample.Tools.Checker">
+              <point x="-38.54545454545456" y="-15.0" />
+              <point x="279.60588842975216" y="540.0" />
+              <point x="77.18515840220397" y="540.0" />
+              <point x="-23.5" y="15.0" />
+            </edge>
+            <edge source="sample.Tools.Calculator" target="sample.Tools.StringToNumberTools">
+              <point x="38.54545454545456" y="-15.0" />
+              <point x="356.6967975206613" y="540.0" />
+              <point x="601.3460399449036" y="540.0" />
+              <point x="601.3460399449036" y="60.0" />
+              <point x="206.87390299094852" y="60.0" />
+              <point x="34.80000000000001" y="15.0" />
+            </edge>
+            <edge source="sample.Tools.Checker" target="sample.Tools.DataManager">
+              <point x="37.599999999999994" y="-15.0" />
+              <point x="138.28515840220396" y="440.0" />
+              <point x="290.1664944903582" y="440.0" />
+              <point x="-31.75" y="15.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="0.8" x="492.2114968364968" y="674.375" />
+          <SelectedNodes>
+            <node>sample.MainApp</node>
+          </SelectedNodes>
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>9</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>NEU_Summer</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>controlsfx-8.0.6_20</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
