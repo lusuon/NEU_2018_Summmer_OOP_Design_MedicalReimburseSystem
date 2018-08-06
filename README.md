@@ -7,8 +7,10 @@ GUI基于JavaFX，因时间紧促，主要开发精力在GUI上，未能进一�
 
 Known issue：
   1.The lack of dealing with exception: might trigger nullPointerException,especially in the moudle of reimburse.
+  
   2.The core reimburse is algorithm probably incorrect.
 
 已知问题：
   1.对部分异常没做处理：可能会引发空指针异常，尤其在报销模块
+  
   2.核心报销算法设计很有可能并不正确
